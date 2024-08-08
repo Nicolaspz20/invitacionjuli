@@ -1,0 +1,71 @@
+body {
+    background-image: url(./img/fondocorazones.jpeg);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.invitation {
+    background-color: #8302b6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    color: #ff00d4; /* Color principal */
+}
+
+.event-details {
+    background-color: #46005c;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #ff00d4; /* Color del botón */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #a400b3; /* Color del botón al pasar el ratón */
+}
+
+.hidden {
+    display: none;
+}
+
+#response-message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: white; /* Color del mensaje de confirmación */
+}
+.porfa{
+    font-size: 20px;
+    color: white;
+}
+h2{
+    font-size: 15px;
+    color: white
+    ; /* Color principal del texto neón */
+    text-shadow: 
+        0 0 5px rgb(195, 0, 255), 
+        0 0 10px rgb(212, 0, 255), 
+        0 0 15px rgb(255, 0, 255), 
+        0 0 20px rgb(255, 0, 234), 
+        0 0 30px rgb(255, 0, 221), 
+        0 0 40px rgb(255, 0, 200), 
+        0 0 50px rgb(255, 0, 157); /* Sombra de texto para crear el efecto neón */
+}
